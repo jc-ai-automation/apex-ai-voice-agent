@@ -46,6 +46,12 @@ Lead Database         Availability / Booking
         Updated Lead Status
 
 ```
+### n8n Workflow
+
+The backend workflow is organized into separate flows for lead capture, calendar availability checking, Retell event handling, and confirmed appointment booking.
+
+![Apex AI Voice Agent n8n Workflow](screenshots/image.png)
+
 ### Core Workflow
 
 1. Customer calls the AI voice receptionist.
