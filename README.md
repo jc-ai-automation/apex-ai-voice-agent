@@ -127,3 +127,17 @@ Lead records are updated throughout the workflow using statuses such as:
 - `new` - Lead information has been captured
 - `booked` - Appointment has been successfully confirmed
 - `pending_schedule` - Customer wants an appointment but the requested slot could not be booked
+
+## Business Value
+
+This system demonstrates how a home services business can automate its inbound call and appointment workflow.
+
+It can help a business:
+
+- Capture leads automatically from inbound calls
+- Reduce missed opportunities outside normal business hours
+- Collect consistent customer and service information
+- Check appointment availability automatically
+- Prevent bookings without customer confirmation
+- Keep lead records and appointment statuses synchronized
+- Reduce manual scheduling and data entry for staff
