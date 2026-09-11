@@ -46,12 +46,31 @@ Lead Database         Availability / Booking
         Updated Lead Status
 
 ```
-### n8n Workflow
+## Project Screenshots
 
-The backend workflow is organized into separate flows for lead capture, calendar availability checking, Retell event handling, and confirmed appointment booking.
+### n8n Automation Backend
 
-![Apex AI Voice Agent n8n Workflow](screenshots/image.png)
+The n8n backend handles lead processing, calendar availability checks, booking logic, Airtable updates, and webhook communication with Retell AI.
 
+![n8n Workflow](screenshots/n8n-workflow.png.jpg)
+
+### Retell AI Voice Agent
+
+The voice agent handles inbound customer conversations and uses custom functions to communicate with the n8n backend.
+
+![Retell AI Voice Agent](screenshots/retellai.png.jpg)
+
+### Airtable Lead Management
+
+Airtable stores captured lead information, service details, appointment preferences, urgency, and booking status.
+
+![Airtable Lead Database](screenshots/airtable.png.jpg)
+
+### Google Calendar Integration
+
+Confirmed appointments are automatically created in Google Calendar after availability is verified and the customer confirms the booking.
+
+![Google Calendar Booking](screenshots/gcalendar.png.jpg)
 ### Core Workflow
 
 1. Customer calls the AI voice receptionist.
